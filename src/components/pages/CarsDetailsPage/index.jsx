@@ -18,6 +18,8 @@ export const CarsDetailsPage = (props)=>{
         return (
             <div className="Cars-page">
                 <h1 className="Cars-title">{Car.name?.stringValue}</h1>
+                <p>Car Info:</p>
+                <p>very nice car</p>
                 <img src={Car.image?.stringValue} alt="image" />
             </div>
         )
